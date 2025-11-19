@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Регистрация</title>
+<link rel="stylesheet" href="css/регистрациия.css" />
+</head>
+<body>
+  <div class="register-container">
+    <h2>Создать аккаунт</h2>
+    <form action="register_handler.php" method="post">
+      <input type="text" name="username" placeholder="Имя пользователя" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Пароль" required />
+      <input type="password" name="password_confirm" placeholder="Повторите пароль" required />
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+    <a href="вход.html" class="login-link">Уже есть аккаунт? Войти</a>
+  </div>
+</body>
+</html>
